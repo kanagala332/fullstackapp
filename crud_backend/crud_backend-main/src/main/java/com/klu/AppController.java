@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin
 public class AppController {
 	@Autowired
-	Service s;
+	ProductService s;
 
 	@PostMapping("/insert")
 	public String insert(@RequestBody Product p) {
